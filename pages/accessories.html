@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FK Nobel — كتالوج إكسسوارات الأثاث. كتالوج 2026." />
+  <title>FK Nobel — الإكسسوارات</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- ============ FLOATING TOP BAR ============ -->
+  <div class="reader-bar">
+    <a href="../index.html" class="reader-back" aria-label="عودة">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      <span class="back-text">عودة</span>
+    </a>
+    <span class="reader-bar-divider"></span>
+    <span class="reader-title">الإكسسوارات</span>
+    <span class="reader-bar-divider"></span>
+    <button class="reader-icon-btn" data-page-prev aria-label="السابق">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+    <span class="reader-counter">
+      <strong data-page-current>01</strong> / <span data-page-total>14</span>
+    </span>
+    <button class="reader-icon-btn" data-page-next aria-label="التالي">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+
+  <!-- ============ FLOATING SIDE ARROWS ============ -->
+  <button class="reader-arrow up" data-page-prev aria-label="السابق">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  </button>
+  <button class="reader-arrow down" data-page-next aria-label="التالي">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  </button>
+
+  <!-- ============ READER STAGE — 14 A4 PAGES ============ -->
+  <main class="reader-stage">
+    <div class="pages-stack">
+        <section class="page" data-page="1">
+          <img src="accessories/01.jpg" alt="صفحة 1" loading="eager" />
+        </section>
+        <section class="page" data-page="2">
+          <img src="accessories/02.jpg" alt="صفحة 2" loading="eager" />
+        </section>
+        <section class="page" data-page="3">
+          <img src="accessories/03.jpg" alt="صفحة 3" loading="lazy" />
+        </section>
+        <section class="page" data-page="4">
+          <img src="accessories/04.jpg" alt="صفحة 4" loading="lazy" />
+        </section>
+        <section class="page" data-page="5">
+          <img src="accessories/05.jpg" alt="صفحة 5" loading="lazy" />
+        </section>
+        <section class="page" data-page="6">
+          <img src="accessories/06.jpg" alt="صفحة 6" loading="lazy" />
+        </section>
+        <section class="page" data-page="7">
+          <img src="accessories/07.jpg" alt="صفحة 7" loading="lazy" />
+        </section>
+        <section class="page" data-page="8">
+          <img src="accessories/08.jpg" alt="صفحة 8" loading="lazy" />
+        </section>
+        <section class="page" data-page="9">
+          <img src="accessories/09.jpg" alt="صفحة 9" loading="lazy" />
+        </section>
+        <section class="page" data-page="10">
+          <img src="accessories/10.jpg" alt="صفحة 10" loading="lazy" />
+        </section>
+        <section class="page" data-page="11">
+          <img src="accessories/11.jpg" alt="صفحة 11" loading="lazy" />
+        </section>
+        <section class="page" data-page="12">
+          <img src="accessories/12.jpg" alt="صفحة 12" loading="lazy" />
+        </section>
+        <section class="page" data-page="13">
+          <img src="accessories/13.jpg" alt="صفحة 13" loading="lazy" />
+        </section>
+        <section class="page" data-page="14">
+          <img src="accessories/14.jpg" alt="صفحة 14" loading="lazy" />
+        </section>
+    </div>
+  </main>
+
+  <script src="../js/reader.js"></script>
+</body>
+</html>
